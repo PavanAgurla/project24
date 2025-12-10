@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp-container
-          image: your-dockerhub-username/your-image-name:latest
+          image: sunnypavan/ptms:latest
           ports:
             - containerPort: 80
 ---
